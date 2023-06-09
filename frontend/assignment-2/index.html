@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+  </head>
+  <body style="margin: 0; padding: 0; font-family: sans-serif">
+    <form>
+      <fieldset style="background-color: #05b2dc; height: 98vh">
+        <legend
+          style="background-color: #031a6b; color: white; padding: 10px 20px"
+        >
+          Personal Data
+        </legend>
+
+        <br />
+        <br />
+
+        <!-- PART 1 -->
+        <fieldset style="background-color: #087ca7">
+          <legend
+            style="
+              background-color: #031a6b;
+              color: white;
+              padding: 20px 10px;
+              margin-bottom: 10px;
+            "
+          >
+            Your name
+          </legend>
+
+          <table>
+            <tr>
+              <td><label for="fname">First name</label></td>
+              <td>
+                :
+                <input
+                  id="fname"
+                  type="text"
+                  placeholder="ex karim"
+                  name="fname"
+                  value=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="lname">Last name</label></td>
+              <td>
+                :
+                <input
+                  id="lname"
+                  type="text"
+                  placeholder="ex mohamed"
+                  name="lname"
+                  value=""
+                />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <!-- PART 2 -->
+        <table>
+          <tr>
+            <td><label for="phone">Your phone</label></td>
+            <td>: <input id="phone" type="text" name="phone" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>: <input id="email" type="email" name="email" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">password</label></td>
+            <td>
+              : <input id="pass" type="password" name="password" value="" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="rpass">Re-password</label></td>
+            <td>
+              : <input id="rpass" type="password" name="rpassword" value="" />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <!-- PART 3 -->
+        <table>
+          <tr>
+            <td><input id="male" name="gender" type="radio" /></td>
+            <td><label for="male">Male</label></td>
+          </tr>
+          <tr>
+            <td><input id="female" name="gender" type="radio" /></td>
+            <td><label for="female">Female</label></td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+        <br />
+
+        <!-- PART 4 -->
+        <table>
+          <tr>
+            <td><input id="student" name="type" type="checkbox" /></td>
+            <td><label for="student">Student</label></td>
+          </tr>
+          <tr>
+            <td><input id="graduated" name="type" type="checkbox" /></td>
+            <td><label for="graduated">Graduated</label></td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+
+        <!-- PART 5 -->
+        <select name="university" style="width: 134px; height: 26px">
+          <optgroup label="Group 1">
+            <option value="auc">AUC</option>
+            <option value="alex">ALEX</option>
+            <option value="cairo">CAIRO</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option value="auc" selected>AUC</option>
+            <option value="alex">ALEX</option>
+            <option value="cairo">CAIRO</option>
+          </optgroup>
+          <optgroup label="Group 3">
+            <option value="auc">AUC</option>
+            <option value="alex">ALEX</option>
+            <option value="cairo">CAIRO</option>
+          </optgroup>
+        </select>
+
+        <br />
+
+        <!-- SUBMIT -->
+        <button style="all: unset">
+          <img width="100px" src="./img/submit.png" alt="submit" />
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
